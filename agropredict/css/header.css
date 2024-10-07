@@ -1,0 +1,56 @@
+.header {
+	background-color: #192A67;
+}
+.header__container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 16px 40px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header__logo {
+	display: flex;
+	align-items: center;
+	gap: 9px;
+}
+.header__logo-name {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 21px;
+	color: #ffffff;
+}
+.header__nav {
+}
+.header__nav-list {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 40px;
+}
+.header__nav-item {
+
+}
+.header__nav-link {
+	text-decoration: none;
+	font-weight: 500;
+	line-height: 21px;
+	font-size: 16px;
+	color: #ffffff;
+}
+.header__nav-link--active {
+	font-weight: 800;
+
+}
+.header__logout {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.header__logout-mail {
+	font-weight: 500;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 21px;
+
+}

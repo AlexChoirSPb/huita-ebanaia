@@ -1,0 +1,251 @@
+.test-tablet {
+	width: 100%;
+	padding: 16px 40px;
+}
+.test-tablet__breadcrumbs {
+	margin-bottom: 26px;
+}
+.test-tablet__bread-list {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	list-style: none;
+}
+.test-tablet__bread-item {
+	font-size: 13px;
+	position: relative;
+
+}
+.test-tablet__bread-link {
+	color: inherit;
+	text-decoration: none;
+
+}
+.test-tablet__bread-item:not(:first-child)::before {
+	content: "/";
+	font-size: 14px;
+	color: #000;
+	position: absolute;
+	left: -8px;
+}
+.test-tablet__bread-item--active {
+	font-weight: 700;
+	color: #000;
+}
+.test-tablet__container {
+	padding: 16px;
+	border-radius: 4px;
+	width: 100%;
+	display: flex;
+	gap: 54px;
+}
+.test-tablet__header {
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 600;
+	color: #000;
+	margin-bottom: 16px;
+}
+
+.test-tablet__header--small {
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 600;
+}
+
+.test-tablet__inner {
+	flex: 1;
+}
+.test-tablet__inner--small {
+	flex: 0 0 286px;
+}
+.test-tablet__form {
+	display: flex;
+	flex-direction: column;
+	gap:20px;
+	margin-bottom: 40px;
+}
+.test-tablet__input-inner {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+.test-tablet__label {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 23px;
+	color: #818181;
+}
+
+.test-tablet__input-inner input {
+	width: 160px;
+	outline: none;
+	border: 1px solid #EFEFEF;
+	padding: 10px 12px;
+	border-radius: 8px;
+	font-size: 15px;
+	line-height: 23px;
+	color: #1D1D1B;
+}
+.test-tablet__input-inner select {
+	outline: none;
+	border: 1px solid #EFEFEF;
+	padding: 10px 12px;
+	border-radius: 8px;
+	font-size: 15px;
+	line-height: 23px;
+	color: #1D1D1B;
+}
+.test-tablet__actions {
+}
+.test-tablet__actions-list {
+	width: 100%;
+	display: flex;
+	list-style: none;
+	gap: 16px;
+	flex-wrap: wrap;
+}
+.test-tablet__action-item {
+	width: calc(50% - 8px);
+}
+.test-tablet__action-btn {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: transparent;
+	border: 1px solid #AEC7E1;
+	padding: 7px ;
+	border-radius: 4px;
+	
+	gap: 10px;
+}
+.test-tablet__btn-text {
+	font-size: 10px;
+	line-height: 14px;
+	font-weight: 500;
+	color: #3C3C3B;
+	width: 123px;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+
+}
+
+.test-tablet__table-container {
+
+}
+.test-tablet__table-header {
+	display: flex;
+	list-style: none;
+}
+.test-tablet__header-item {
+}
+.test-tablet__header-link {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-weight: 600;
+	font-style: 15px;
+	line-height: 20px;
+	color:#0E1428;
+	border-radius: 4px 4px 0 0;
+}
+
+.test-tablet__header-link--active {
+	background-color: #fff;
+
+	
+}
+.test-tablet__table {
+	width: 100%;
+	background-color: #fff;
+	border-collapse: collapse;
+}
+
+.test-tablet__table--tablet th{
+	padding: 13px 0;
+	text-align: center;
+	font-weight: 500;
+	line-height: 28px;
+	font-size: 18px;
+	color: #AEC7E1;
+}
+
+.test-tablet__table--tablet td{
+	height: 80px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 10px;
+	color: #000;
+	text-align: right;
+	vertical-align: top;
+	padding: 6px;
+}
+
+.test-tablet__table--tablet td:first-child{
+	text-align: center;
+	font-weight: 500;
+	line-height: 28px;
+	font-size: 18px;
+	color: #AEC7E1;
+	vertical-align: middle;
+}
+
+
+.test-tablet__table--tablet th:not(:last-child),
+.test-tablet__table--tablet td:not(:last-child) {
+	border-right: 1px solid #EFEFEF;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+.test-tablet__table--tablet th:first-child {
+	width: 60px;
+}
+.test-tablet__table--tablet td:first-child {
+	width: 60px;
+}
+.test-tablet__table--tablet th:last-child {
+	width: 32px;
+}
+.test-tablet__table--tablet td:last-child {
+	width: 32px;
+}
+.test-tablet__table--tablet {
+	table-layout: fixed;
+}
+
+
+
+
+
+
+.test-tablet__table-inner {
+	padding: 16px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.test-tablet__table--total th{
+	padding: 10px 16px;
+	text-align: left;
+	font-weight: 600;
+	line-height: 23px;
+	font-size: 12px;
+	color: #3C3C3B;
+}
+
+.test-tablet__table--total thead{
+	background-color: #ACC5DF;
+}
+
+.test-tablet__table--total tr{
+	border-bottom: 1px solid #EFEFEF;
+}
+
+
+.test-tablet__table--total td{
+	height: 40px;
+}

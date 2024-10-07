@@ -1,0 +1,25 @@
+body {
+	font-family: "Montserrat", serif;
+	font-size: 16px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #80807F;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body * {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+}
